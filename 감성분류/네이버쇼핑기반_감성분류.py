@@ -206,6 +206,6 @@ for i in range(0, len(pet_comment)):
 
 pd_data = {'Reviews':new_pet_comment, 'P or N':new_pet_pn}
 petfreinds_pd = pd.DataFrame(pd_data)
-petfreinds_pd.to_csv('naver_펫프렌즈.csv', mode = 'w')
+petfreinds_pd.to_csv('naver_감성분류.csv', mode = 'w')
   
 print('완료')
